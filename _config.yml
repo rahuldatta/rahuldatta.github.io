@@ -23,7 +23,7 @@ repository               : "https://rahuldatta.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : /images/mypic.jpg
+  avatar           : images/mypic.jpg
   name             : "Rahul Datta"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
@@ -225,6 +225,9 @@ collections:
   #teaching:
   #  output: true
   #  permalink: /:collection/:path/
+  patents:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
